@@ -11,6 +11,7 @@ const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 
 // Now, let's print the publickey and verify that it matches the one from generate_wallet.ts
 
+
 // lets access the publickey and make it human readable
 const publicKey = keypair.publicKey.toBase58();
 console.log('Public Key:', publicKey);
