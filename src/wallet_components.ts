@@ -14,3 +14,6 @@ const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 // lets access the publickey and make it human readable
 const publicKey = keypair.publicKey.toBase58();
 console.log('Public Key:', publicKey);
+
+
+// Public Key: HPSeGxoCk38q2hXzaomMJaUrfVBwAqWi28NWRRUDKYuB
